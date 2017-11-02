@@ -4,7 +4,12 @@ body {
     font-family: "Lato";
 }
 
-ul {
+ul.centered {
+  display: table;
+  margin: 0 auto;
+}
+
+ul.menu-bar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -12,11 +17,11 @@ ul {
     background-color: #222;
 }
 
-li {
+ul.menu-bar li {
     float: left;
 }
 
-li a {
+ul.menu-bar li a {
     display: inline-block;
     color: #FFFFFF;
     text-align: center;
@@ -24,7 +29,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+ul.menu-bar li a:hover {
     #color: #00FF00;
     background-color: #555;
 }
