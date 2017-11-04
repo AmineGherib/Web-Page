@@ -3,6 +3,13 @@ body {
     text-align: center;
     font-family: "Lato";
 }
+  
+pre {
+  display: block;
+  font-family: "Ubuntu";
+  color: #5555FF;
+  margin: 1em 0;
+}
 
 ul.centered {
   display: table;
